@@ -11,7 +11,7 @@ var User=require("./models/User.js");
 var mongoose=require("mongoose");
 //设置文件静态托管
 app.use("/public",express.static(__dirname+"/public")); 
-
+  
 //bodyparser设置 
 app.use(bodyParser.urlencoded({extended:true})); 
 //设置cookies
